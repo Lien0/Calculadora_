@@ -80,12 +80,17 @@ dot.addEventListener("click", numberdot);
 
 function adicion() {
   a++;
+  // let love = [".", ".", "2", "2", "2", "2", ".", "."];
+  let love = "..2222..";
   let screen = document.getElementById("scrcalc");
   let string = screen.value;
   for (let count = 0; count < string.length; count++) {
     if (string.charAt(count) == ".") {
       flagFloat++;
     }
+  }
+  if (string == love) {
+    alert("Mi amor te adoro de aqui al fin del universo");
   }
 
   if (flagFloat == 0) {
