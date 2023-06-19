@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/calculadora.css" />
+    <script defer src="/calculadora.js"></script>
+  </head>
+  <body id="home">
+    <!-- here are the actions of delete -->
+    <form class="calc">
+      <textarea name="screen" id="scrcalc" cols="30" rows="10"></textarea>
+      <div class="delete">
+        <button type="button" id="delAll">AC</button>
+        <button type="button" id="del">DEL</button>
+      </div>
+      <div id="section1">
+        <!-- here are the operators of the calc -->
+        <div class="operators">
+          <button type="button" id="mult">*</button>
+          <button type="button" id="div">/</button>
+          <button type="button" id="percent">%</button>
+          <button type="button" id="sust">-</button>
+          <button type="button" id="add">+</button>
+          <button type="button" id="equal">=</button>
+        </div>
+        <!-- here are the numbers -->
+        <div class="numbers">
+          <button type="button" id="one">1</button>
+          <button type="button" id="two">2</button>
+          <button type="button" id="three">3</button>
+          <button type="button" id="four">4</button>
+          <button type="button" id="five">5</button>
+          <button type="button" id="six">6</button>
+          <button type="button" id="seven">7</button>
+          <button type="button" id="eigth">8</button>
+          <button type="button" id="nine">9</button>
+          <button type="button" id="zero">0</button>
+          <button type="button" id="dot">.</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

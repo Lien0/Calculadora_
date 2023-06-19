@@ -1,0 +1,164 @@
+#home {
+  background-color: rgba(119, 136, 153, 80);
+  position: relative;
+  left: 30%;
+  right: 40%;
+  overflow: hidden;
+  top: 150px;
+}
+
+.calc{
+  background-image: url("/fondo_calc.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 420px;
+}
+
+#scrcalc{
+  height: 50px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: right;
+}
+.delete{
+  height: 40px;
+  width: 100%;
+  display: flex;
+}
+
+#delAll{
+  height: 40px;
+  width: 150px;
+  font-size: 30px;
+}
+
+#del{
+  height: 40px;
+  width: 150px;
+  font-size: 30px;
+}
+
+#section1{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 330px;
+
+}
+
+.operators{
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 55px;
+}
+#mult{
+  height: 55px;
+  width: 55px;
+}
+#div{
+  height: 55px;
+  width: 55px;
+}
+#percent{
+  height: 55px;
+  width: 55px;
+}
+#sust{
+  height: 55px;
+  width: 55px;
+}
+#add{
+  height: 55px;
+  width: 55px;
+}
+#equal{
+  height: 55px;
+  width: 55px;
+}
+
+
+.numbers{
+  height: 330px;
+  width: 245px;
+}
+#two{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#one{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#three{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#four{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#five{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#six{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#seven{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#eigth{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#nine{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#zero{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
+#dot{
+  width: 79px;
+  height: 82px;
+  margin: 0px;
+  padding: 0px;
+  border: auto;
+}
