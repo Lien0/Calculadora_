@@ -8,7 +8,7 @@
 }
 
 .calc{
-  background-image: url("imagenes/fondo_calc.jpg");
+  background-image: url("../imagenes/fondo_calc.jpg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
